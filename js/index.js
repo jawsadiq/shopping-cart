@@ -17,7 +17,6 @@ function addToCart(index) {
   cart.push(product);
   displayCart();
 }
-
 function removeFromCart(index) {
   cart.splice(index, 1);
   displayCart();
